@@ -59,4 +59,19 @@ else:
     print("Digit not found.")
 result.group()
 
+# Consider the variable g, and find the first index of the sub-string snow:
+# Write your code below and press Shift+Enter to execute
+g = "Mary had a little lamb Little lamb, little lamb Mary had a little lamb \
+Its fleece was white as snow And everywhere that Mary went Mary went, Mary went \
+Everywhere that Mary went The lamb was sure to go"
+g
+g.find("snow")
 
+# In the variable g, replace the sub-string Mary with Bob:
+print(g.replace("Mary", "Bob"))
+g
+
+g.replace(',','.')
+
+#In the variable g, split the substring to list:
+g.split()
