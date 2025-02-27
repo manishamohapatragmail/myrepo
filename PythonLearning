@@ -1,0 +1,62 @@
+# This is a comment
+
+result = "Hello" + " John"
+
+y=12.4 
+# Float Value 
+is_valid = True 
+# Boolean Value 
+is_valid = False 
+# Boolean Value 
+F_Name = "John" 
+# String Value
+
+my_string="Hello" 
+char = my_string[0]
+
+length = len(my_string)
+
+uppercase_text = my_string.lower()
+
+x = 9 y = 4 
+result_add= x + y # Addition 
+result_sub= x - y # Subtraction 
+result_mul= x * y # Multiplication 
+result_div= x / y # Division 
+result_fdiv= x // y # Floor Division 
+result_mod= x % y # Modulo
+
+new_text = my_string.replace("Hello", "Hi")
+
+my_string="Hello blah bl;ah, awgyriuwryiwue" substring = my_string[0:5]
+
+split_text = my_string.split(",")
+
+trimmed = my_string.strip()
+
+name="John" # assigning John to variable name 
+x = 5 # assigning 5 to variable x
+
+#In the string str2 find all the occurrences of woo using findall() function:
+str2= "How much wood would a woodchuck chuck, if a woodchuck could chuck wood?"
+import re
+# Write your code below and press Shift+Enter to execute
+m=re.findall("woo", str2)
+len(m)
+
+# In the string str1, replace the sub-string fox with bear using sub() function:
+new_str1 = re.sub(r"fox", "bear", str1)
+print(new_str1)
+
+# n the string s3, find whether the digit is present or not using the \d and search() function:
+s3 = "House number- 1105"
+# Write your code below and press Shift+Enter to execute
+result = re.search(r"\d", s3)
+# Check if a match was found
+if result:
+    print("Digit found")
+else:
+    print("Digit not found.")
+result.group()
+
+
